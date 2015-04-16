@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7545F71AE0060B007AA649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7545F61AE0060B007AA649 /* AppDelegate.swift */; };
+		EF7545F91AE0060B007AA649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7545F81AE0060B007AA649 /* ViewController.swift */; };
+		EF7545FB1AE0060B007AA649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7545FA1AE0060B007AA649 /* Images.xcassets */; };
+		EF7545FE1AE0060B007AA649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7545FC1AE0060B007AA649 /* Main.storyboard */; };
+		EF75460A1AE0060B007AA649 /* ServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7546091AE0060B007AA649 /* ServerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7546041AE0060B007AA649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7545E91AE0060B007AA649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7545F01AE0060B007AA649;
+			remoteInfo = Server;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF7545F11AE0060B007AA649 /* Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Server.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7545F51AE0060B007AA649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7545F61AE0060B007AA649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7545F81AE0060B007AA649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF7545FA1AE0060B007AA649 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF7545FD1AE0060B007AA649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7546031AE0060B007AA649 /* ServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7546081AE0060B007AA649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7546091AE0060B007AA649 /* ServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7545EE1AE0060B007AA649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7546001AE0060B007AA649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7545E81AE0060B007AA649 = {
+			isa = PBXGroup;
+			children = (
+				EF7545F31AE0060B007AA649 /* Server */,
+				EF7546061AE0060B007AA649 /* ServerTests */,
+				EF7545F21AE0060B007AA649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7545F21AE0060B007AA649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7545F11AE0060B007AA649 /* Server.app */,
+				EF7546031AE0060B007AA649 /* ServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7545F31AE0060B007AA649 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				EF7545F61AE0060B007AA649 /* AppDelegate.swift */,
+				EF7545F81AE0060B007AA649 /* ViewController.swift */,
+				EF7545FA1AE0060B007AA649 /* Images.xcassets */,
+				EF7545FC1AE0060B007AA649 /* Main.storyboard */,
+				EF7545F41AE0060B007AA649 /* Supporting Files */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		EF7545F41AE0060B007AA649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7545F51AE0060B007AA649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7546061AE0060B007AA649 /* ServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7546091AE0060B007AA649 /* ServerTests.swift */,
+				EF7546071AE0060B007AA649 /* Supporting Files */,
+			);
+			path = ServerTests;
+			sourceTree = "<group>";
+		};
+		EF7546071AE0060B007AA649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7546081AE0060B007AA649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7545F01AE0060B007AA649 /* Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF75460D1AE0060B007AA649 /* Build configuration list for PBXNativeTarget "Server" */;
+			buildPhases = (
+				EF7545ED1AE0060B007AA649 /* Sources */,
+				EF7545EE1AE0060B007AA649 /* Frameworks */,
+				EF7545EF1AE0060B007AA649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Server;
+			productName = Server;
+			productReference = EF7545F11AE0060B007AA649 /* Server.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7546021AE0060B007AA649 /* ServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7546101AE0060B007AA649 /* Build configuration list for PBXNativeTarget "ServerTests" */;
+			buildPhases = (
+				EF7545FF1AE0060B007AA649 /* Sources */,
+				EF7546001AE0060B007AA649 /* Frameworks */,
+				EF7546011AE0060B007AA649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7546051AE0060B007AA649 /* PBXTargetDependency */,
+			);
+			name = ServerTests;
+			productName = ServerTests;
+			productReference = EF7546031AE0060B007AA649 /* ServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7545E91AE0060B007AA649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = iosnsagora;
+				TargetAttributes = {
+					EF7545F01AE0060B007AA649 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EF7546021AE0060B007AA649 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EF7545F01AE0060B007AA649;
+					};
+				};
+			};
+			buildConfigurationList = EF7545EC1AE0060B007AA649 /* Build configuration list for PBXProject "Server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7545E81AE0060B007AA649;
+			productRefGroup = EF7545F21AE0060B007AA649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7545F01AE0060B007AA649 /* Server */,
+				EF7546021AE0060B007AA649 /* ServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7545EF1AE0060B007AA649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7545FB1AE0060B007AA649 /* Images.xcassets in Resources */,
+				EF7545FE1AE0060B007AA649 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7546011AE0060B007AA649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7545ED1AE0060B007AA649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7545F91AE0060B007AA649 /* ViewController.swift in Sources */,
+				EF7545F71AE0060B007AA649 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7545FF1AE0060B007AA649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF75460A1AE0060B007AA649 /* ServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7546051AE0060B007AA649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7545F01AE0060B007AA649 /* Server */;
+			targetProxy = EF7546041AE0060B007AA649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7545FC1AE0060B007AA649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7545FD1AE0060B007AA649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF75460B1AE0060B007AA649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF75460C1AE0060B007AA649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF75460E1AE0060B007AA649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Server/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF75460F1AE0060B007AA649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Server/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7546111AE0060B007AA649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Server.app/Contents/MacOS/Server";
+			};
+			name = Debug;
+		};
+		EF7546121AE0060B007AA649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Server.app/Contents/MacOS/Server";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7545EC1AE0060B007AA649 /* Build configuration list for PBXProject "Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF75460B1AE0060B007AA649 /* Debug */,
+				EF75460C1AE0060B007AA649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF75460D1AE0060B007AA649 /* Build configuration list for PBXNativeTarget "Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF75460E1AE0060B007AA649 /* Debug */,
+				EF75460F1AE0060B007AA649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF7546101AE0060B007AA649 /* Build configuration list for PBXNativeTarget "ServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7546111AE0060B007AA649 /* Debug */,
+				EF7546121AE0060B007AA649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7545E91AE0060B007AA649 /* Project object */;
+}
