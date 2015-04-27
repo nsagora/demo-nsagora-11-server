@@ -12,6 +12,12 @@
 		EF7545FB1AE0060B007AA649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7545FA1AE0060B007AA649 /* Images.xcassets */; };
 		EF7545FE1AE0060B007AA649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7545FC1AE0060B007AA649 /* Main.storyboard */; };
 		EF75460A1AE0060B007AA649 /* ServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7546091AE0060B007AA649 /* ServerTests.swift */; };
+		EFB41E231AE00694004598E7 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB41E1D1AE00694004598E7 /* HttpRequest.swift */; };
+		EFB41E241AE00694004598E7 /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB41E1E1AE00694004598E7 /* HttpParser.swift */; };
+		EFB41E251AE00694004598E7 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB41E1F1AE00694004598E7 /* HttpResponse.swift */; };
+		EFB41E261AE00694004598E7 /* HttpHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB41E201AE00694004598E7 /* HttpHandlers.swift */; };
+		EFB41E271AE00694004598E7 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB41E211AE00694004598E7 /* HttpServer.swift */; };
+		EFB41E281AE00694004598E7 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB41E221AE00694004598E7 /* Socket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 		EF7546031AE0060B007AA649 /* ServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7546081AE0060B007AA649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7546091AE0060B007AA649 /* ServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTests.swift; sourceTree = "<group>"; };
+		EFB41E1D1AE00694004598E7 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		EFB41E1E1AE00694004598E7 /* HttpParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpParser.swift; sourceTree = "<group>"; };
+		EFB41E1F1AE00694004598E7 /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		EFB41E201AE00694004598E7 /* HttpHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHandlers.swift; sourceTree = "<group>"; };
+		EFB41E211AE00694004598E7 /* HttpServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpServer.swift; sourceTree = "<group>"; };
+		EFB41E221AE00694004598E7 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 		EF7545F31AE0060B007AA649 /* Server */ = {
 			isa = PBXGroup;
 			children = (
+				EFB41E1C1AE00683004598E7 /* Swifter */,
 				EF7545F61AE0060B007AA649 /* AppDelegate.swift */,
 				EF7545F81AE0060B007AA649 /* ViewController.swift */,
 				EF7545FA1AE0060B007AA649 /* Images.xcassets */,
@@ -107,6 +120,19 @@
 				EF7546081AE0060B007AA649 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB41E1C1AE00683004598E7 /* Swifter */ = {
+			isa = PBXGroup;
+			children = (
+				EFB41E1D1AE00694004598E7 /* HttpRequest.swift */,
+				EFB41E1E1AE00694004598E7 /* HttpParser.swift */,
+				EFB41E1F1AE00694004598E7 /* HttpResponse.swift */,
+				EFB41E201AE00694004598E7 /* HttpHandlers.swift */,
+				EFB41E211AE00694004598E7 /* HttpServer.swift */,
+				EFB41E221AE00694004598E7 /* Socket.swift */,
+			);
+			name = Swifter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB41E281AE00694004598E7 /* Socket.swift in Sources */,
+				EFB41E251AE00694004598E7 /* HttpResponse.swift in Sources */,
+				EFB41E241AE00694004598E7 /* HttpParser.swift in Sources */,
+				EFB41E261AE00694004598E7 /* HttpHandlers.swift in Sources */,
+				EFB41E271AE00694004598E7 /* HttpServer.swift in Sources */,
 				EF7545F91AE0060B007AA649 /* ViewController.swift in Sources */,
 				EF7545F71AE0060B007AA649 /* AppDelegate.swift in Sources */,
+				EFB41E231AE00694004598E7 /* HttpRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +429,7 @@
 				EF75460F1AE0060B007AA649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF7546101AE0060B007AA649 /* Build configuration list for PBXNativeTarget "ServerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +438,7 @@
 				EF7546121AE0060B007AA649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
